@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://cdn.hipwallpaper.com/i/6/72/oD9sYv.jpg"); /*I'm not sure where I got this wallpaper from*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-family: 'Mulish', sans-serif;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.6em;
+}
+
+#description {
+  font-size: 1.2em;
+}
+
+form {
+  border-radius: 10px;
+  width: 45%;
+  margin: auto;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  align-self: center;
+  align-items: center;
+  padding-left: 2%;
+  background-color: rgba(46,54,64, 0.64);
+  font-size: 1.15em;
+}
+
+option, input {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.05em;
+}
+
+.info input {
+  width: 70%;
+  padding: 1.2%;
+  border-radius: 6px;
+  border-style: hidden;
+  margin-bottom: 3%;
+  margin-top: 0.8%;
+}
+
+select {
+  width: 70%;
+  padding: 1.156%;
+  border-radius: 6px;
+  font-size: 1.05em;
+}
+
+textarea {
+  width: 90%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 6px;
+  border-style: hidden;
+  padding: 1.789%;
+  width: 45%;
+  background-color: #12C4E1;
+  color: #FFFFFF;
+  font-size: 1.09em;
+}
+
+button:hover {
+  background-color: #5CDB94;
+  color: #FFFFFF;
+}

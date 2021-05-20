@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  </head>
+  <h1 id="title">Pulsar Dynamics Survey Form</h1>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" charset="utf-8"></script>
+    <p id="description">Take a few minutes to complete this survey to help us improve our services</p>
+
+    <form class="survey-form" id="survey-form" action="index.html" method="post">
+      <div class="info">
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" id="name" value="" placeholder="Enter your Name" required><br>
+        <label for="email" id="email-label">Email</label><br>
+        <input type="email" id="email" value="" placeholder="Enter your Email" required><br>
+        <label for="age" id="number-label">Age</label><br>
+        <input type="number" id="number" value="" placeholder="Enter your Age" min="14" max="99" required><br>
+        <label for="number" id="tel-label">Phone</label><br>
+        <input type="tel" value="" maxlength="10" placeholder="Enter your Phone Number"><br><br>
+      </div>
+
+      <label for="level">What's your current dev jounrey level</label><br>
+      <input type="radio" name="level" value="noob">Trainee<br>
+      <input type="radio" name="level" value="jnr-dev">Junior Developer<br>
+      <input type="radio" name="level" value="midlv-dev">Mid-level Developer<br>
+      <input type="radio" name="level" value="snr-dev">Senior Developer<br>
+      <input type="radio" name="level" value="leader">Leader<br><br>
+
+      <label for="exp">What are your favorite service from Pulsar Dynamics</label><br>
+      <input type="checkbox" name="exp" value="web-dev">Web Development<br>
+      <input type="checkbox" name="exp" value="game-dev">Game Development<br>
+      <input type="checkbox" name="exp" value="mocap">Motion Capture<br>
+      <input type="checkbox" name="exp" value="short-courses">Short Courses<br><br>
+
+      <label for="fav-service">How would you describe your experience with us?</label><br>
+      <select class="fav" name="fav" id="dropdown">
+        <option disabled selected value>Select an option</option>
+        <option value="terrible">Terrible</option>
+        <option value="bad">Bad</option>
+        <option value="good">Good</option>
+        <option value="great">Great</option>
+        <option value="excellent">Excellent</option>
+      </select><br><br>
+
+      <label for=exta"">Additional Comments</label><br>
+      <textarea name="extra" id="add-comment" rows="8" cols="80"></textarea><br>
+      <button type="submit" name="submit" id="submit">SUBMIT</button>
+    </form>
+  </body>
+</html>
