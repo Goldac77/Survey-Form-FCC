@@ -1,2 +1,2 @@
 # Survey-Form-FCC
-Survey from from FreeCodeCamp responsive web design course
+Survey form from FreeCodeCamp responsive web design course
